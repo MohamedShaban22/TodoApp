@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="taskslist">الملاحظات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="list" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="language">اللغة :</string>
+    <string name="mode">وضع النظام :</string>
+    <string name="add_new_task">إضافة ملاحظة</string>
+    <string name="enter_tittle">العنوان</string>
+    <string name="enter_description"> التفاصيل</string>
+    <string name="select_date">التاريخ</string>
+    <string name="add_task">حفظ </string>
+    <string-array name="language">
+        <item> "  اللغة"</item>
+        <item>الانجليزية</item>
+        <item>العربية</item>
+    </string-array>
+    <string-array name="mode">
+        <item> "  النظام"</item>
+        <item>الوضع الفاتح</item>
+        <item>الوضع الليلى</item>
+    </string-array>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.UpdateActivity"
+    style="@style/app_background">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHeight_percent="0.2"
+        android:background="@color/lightPrimary"
+        />
+    <ImageView
+        android:id="@+id/ic_back"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_back"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:id="@+id/todo_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ic_back"
+        android:text="ToDo List"
+        android:textSize="25sp"
+        style="@style/text_color"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"
+        />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/update_card"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/todo_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.8"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"
+        app:cardCornerRadius="18dp"
+        android:elevation="20dp"
+        app:contentPadding="12dp"
+        style="@style/card_background"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/transpernt"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToDo List"
+            android:textSize="20sp"
+            style="@style/description_color"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/Title_up_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="Title"
+            android:textSize="26sp"
+            style="@style/description_color"
+
+            />
+
+        <EditText
+            android:id="@+id/description_up_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="details"
+            android:textSize="24sp"
+            style="@style/description_color"
+            android:lines="2"
+            android:minLines="2"
+            android:maxLines="10"
+
+            />
+
+        <TextView
+            android:id="@+id/select_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_date"
+            android:textSize="20sp"
+            style="@style/description_color"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:id="@+id/date_value_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="17-2-2023"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/edit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:elevation="12dp"
+            android:text="save changes"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:backgroundTint="@color/lightPrimary"
+            android:paddingVertical="10dp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="20dp"
+            />
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

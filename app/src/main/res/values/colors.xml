@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transpernt">#00000000</color>
+    <color name="lightGreen">#DFECDB</color>
+    <color name="lightPrimary">#5D9CEC</color>
+    <color name="orange_bg_delete_color">#ff5722</color>
+
+    <color name="color_black_dark">#060E1E</color>
+    <color name="card_bg_dark">#141922</color>
+    <color name="green_dark">#61E757</color>
+
+</resources>

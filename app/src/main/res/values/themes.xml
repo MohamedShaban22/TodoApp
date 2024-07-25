@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TodoApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/lightPrimary</item>
+        <item name="colorSecondary">@color/lightPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+    <style name="Theme.TodoApp" parent="Base.Theme.TodoApp" />
+
+    <style name="app_background">
+        <item name="android:background">@color/lightGreen</item>
+    </style>
+    <style name="bottomAppBar_bg">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+    <style name="card_background">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+    <style name="splash_bg">
+        <item name="android:background">@drawable/splash_screen</item>
+    </style>
+    <style name="spinner_bg">
+        <item name="android:background">@drawable/spinner_bg_shape</item>
+    </style>
+    <style name="text_color">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="description_color">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Widget.MaterialComponents.BottomAppBar.Colored">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+    <style name="bot_nav_icon_selector">
+        <item name="itemTextColor">@color/flloting_selector_color</item>
+        <item name="itemIconTint">@color/flloting_selector_color</item>
+    </style>
+<style name="ic_back">
+    <item name="android:src">@drawable/ic_back</item>
+</style>
+</resources>

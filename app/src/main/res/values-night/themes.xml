@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TodoApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="app_background">
+        <item name="android:background">@color/color_black_dark</item>
+    </style>
+    <style name="card_background">
+        <item name="android:backgroundTint">@color/card_bg_dark</item>
+    </style>
+    <style name="splash_bg">
+        <item name="android:background">@drawable/splah_dg_dark</item>
+    </style>
+    <style name="spinner_bg">
+        <item name="android:background">@drawable/spinner_bg_dark_shape</item>
+    </style>
+    <style name="text_color">
+        <item name="android:textColor">@color/card_bg_dark</item>
+    </style>
+    <style name="description_color">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Widget.MaterialComponents.BottomAppBar.Colored">
+        <item name="android:backgroundTint">@color/card_bg_dark</item>
+    </style>
+    <style name="bot_nav_icon_selector">
+        <item name="itemTextColor">@color/flloting_selector_color_dark</item>
+        <item name="itemIconTint">@color/flloting_selector_color_dark</item>
+    </style>
+    <style name="ic_back">
+        <item name="android:src">@drawable/ic_back_dark</item>
+    </style>
+</resources>

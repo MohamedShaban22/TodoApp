@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="12dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/add_new_task"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/title_et_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:elevation="5dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/title_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_tittle"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/description_et_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:elevation="5dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/description_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_description"
+            android:lines="5"
+            android:minLines="5"
+            android:maxLines="5"
+            android:gravity="start"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/select_date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:elevation="5dp"
+        >
+        <TextView
+            android:id="@+id/date_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_date"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/add_task_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="12dp"
+        android:text="@string/add_task"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:backgroundTint="@color/lightPrimary" />
+</LinearLayout>
+
